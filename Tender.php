@@ -8,7 +8,6 @@ class Tender extends Model
 {
     protected string $table = 'tender';
 
-    /** Enam tahapan baku e-Tendering pascakualifikasi (urutan pelaksanaan). */
     public const TAHAP = [
         'Pengumuman Pascakualifikasi',
         'Download Dokumen Pemilihan',
